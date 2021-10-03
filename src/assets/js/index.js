@@ -1,3 +1,5 @@
+require('bootstrap');
+
 // hamburger
 $('.hamburger').on('click', function (event) {
   event.preventDefault();

@@ -1,7 +1,7 @@
 {% set title = "Floema | Home" %}
 {% include "../templates/header.njk" %}
 <div id="overlay"></div>
-<header class="header wrapper">
+<header class="header container">
   <nav class="nav">
     <a class="nav__item" href="#about">О бренде</a>
     <a class="nav__item" href="#catalog">Каталог</a>
@@ -16,14 +16,16 @@
     <span></span>
   </div>
 </header>
-<section class="intro wrapper">
-  <div class="intro__item">
-    <p>Профессиональная линейка продуктов</p>
-    <h1>Комплексное решение проблем роста и выпадения волос</h1>
-    <a class="btn" href="#">Информация для врачей</a>
-  </div>
-  <div class="intro__item">
-    <img src="assets/img/bg/bg-intro.png" alt="" width="561" height="700">
+<section class="intro container">
+  <div class="intro__inner">
+    <div class="intro__item">
+      <p class="subtitle subtitle--white">Профессиональная линейка продуктов</p>
+      <h1 class="title title--white">Комплексное решение проблем роста и&nbsp;выпадения волос</h1>
+      <a class="btn" href="#">Информация для врачей</a>
+    </div>
+    <div class="intro__img">
+      <img src="assets/img/bg/bg-intro.png" alt="" width="561" height="700">
+    </div>
   </div>
 </section>
 

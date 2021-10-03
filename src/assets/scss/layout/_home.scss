@@ -14,13 +14,18 @@
 }
 
 // .intro
-.intro {
+.intro__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  background-color: #e2ae99;
 }
 
 .intro__item {
-  width: 50%;
+  padding: 0 29px 0 58px;
+
+  max-width: 59%;
 }
 
-// /.intro
+// ./intro
