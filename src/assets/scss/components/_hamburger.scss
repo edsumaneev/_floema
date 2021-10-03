@@ -2,14 +2,16 @@
   display: none;
 
   @media (max-width: $width-lg) {
+    position: absolute;
+    left: 28px;
+
     z-index: 10;
     // order: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 18px;
-    margin-bottom: 18px;
+    // margin-top: 7px;
 
     width: 28px;
     height: 28px;
@@ -34,14 +36,11 @@
   transition: 250ms ease-in-out;
 }
 
-.hamburger--white span,
-.hamburger--white::after,
-.hamburger--white::before,
 .hamburger.active span,
 .hamburger.active::after,
 .hamburger.active::before {
-  z-index: 10;
-  background-color: #f32929;
+  z-index: 20;
+  background-color: #ffffff;
 }
 
 .hamburger::after,

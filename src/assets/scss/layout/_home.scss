@@ -1,0 +1,26 @@
+.logo {
+  order: 1;
+  margin-right: 90px;
+
+  @media(max-width: $width-lg) {
+    margin: 0 auto;
+  }
+}
+
+.nav.active+.logo {
+  z-index: 30;
+
+  filter: brightness(5);
+}
+
+// .intro
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__item {
+  width: 50%;
+}
+
+// /.intro
