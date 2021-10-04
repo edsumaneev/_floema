@@ -137,7 +137,20 @@
 }
 
 .aboutbrand__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: #e4cebe;
+}
+
+.aboutbrand__logo {
+  z-index: 5;
+  position: absolute;
+
+  width: 378px;
+  height: 72px;
 }
 
 .aboutbrand__img {
@@ -163,3 +176,60 @@
 }
 
 // ./aboutbrand
+
+// .forfemale
+.forfemale {
+  padding-top: 100px;
+  padding-bottom: 72px;
+
+  background: #fff6f2;
+}
+
+.forfemale__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.forfemale__img {
+  margin-right: 125px;
+  width: auto;
+}
+
+// ./forfemale
+
+// .slider
+.slider {
+  // width: 150%;
+  // width: auto;
+}
+
+.slider__item {
+  // display: flex !important;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // align-items: center;
+
+  max-width: 268px;
+  height: 340px;
+}
+
+.slider__inner {
+  text-align: center;
+}
+
+.slider__img {
+  width: auto;
+  height: auto;
+}
+
+.slider__title {
+  margin-bottom: 8px;
+
+  color: $font-gold;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+
+// ./slider

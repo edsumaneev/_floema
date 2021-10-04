@@ -1,4 +1,5 @@
 require('bootstrap');
+require('slick-carousel');
 
 // hamburger
 $('.hamburger').on('click', function (event) {
@@ -25,4 +26,31 @@ $(document).keydown(function (eveent) {
     $('body').removeClass('is-modal');
     $('#overlay').removeClass('active');
   }
+});
+
+// slick slider
+$(".slider").slick({
+  slidesToShow: 4,
+  infinite: true,
+  autoplay: false,
+  touchThreshold: 100,
+  dots: false,
+  // prevArrow: $(".slick-prev"),
+  // nextArrow: $(".slick-next"),
+  responsive: [{
+      breakpoint: 1100,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 737,
+      settings: {
+        slidesToShow: 1,
+        prevArrow: false,
+        nextArrow: false,
+        dots: true
+      }
+    }
+  ]
 });
