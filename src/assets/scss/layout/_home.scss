@@ -14,7 +14,23 @@
 }
 
 // .intro
+.intro {
+  position: relative;
+}
+
+.intro::before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  width: 604px;
+  height: 604px;
+  top: -300px;
+  left: -300px;
+  background: url("../img/bg/bg-dots01.png") no-repeat 50% 50%;
+}
+
 .intro__inner {
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,3 +45,121 @@
 }
 
 // ./intro
+// .mission
+.mission__inner {
+  position: relative;
+  padding: 100px 230px 128px 120px;
+  margin-bottom: 100px;
+  background-color: #f8d5c1;
+
+  overflow: hidden;
+}
+
+.mission__inner::after {
+  position: absolute;
+  content: "";
+  width: 611px;
+  height: 611px;
+  bottom: -300px;
+  right: -300px;
+  background: url("../img/bg/bg-circle01.png") no-repeat 50% 50%;
+}
+
+// ./mission
+
+// .list
+.list {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 120px;
+
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.list__item {
+  position: relative;
+  padding-top: 30px;
+}
+
+.list__item--width {
+  margin-right: 72px;
+  max-width: 393px;
+}
+
+.list__item--width:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list__item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 96px;
+  height: 2px;
+
+  background-color: #73877b;
+}
+
+.list__icon {
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  svg {
+    fill: #73877b;
+  }
+}
+
+.list__title {
+  padding-left: 80px;
+  margin-bottom: 30px;
+
+  color: $font-gold;
+  font-size: 1rem;
+}
+
+// ./list
+// .aboutbrand
+.aboutbrand {
+  margin-bottom: 57px;
+}
+
+.aboutbrand__dsc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #e2ae99;
+}
+
+.aboutbrand__wrapper {
+  background-color: #e4cebe;
+}
+
+.aboutbrand__img {
+  mix-blend-mode: multiply;
+
+  img {
+    height: 100%;
+  }
+}
+
+.aboutbrand__txt {
+  padding: 0 145px 0 140px;
+  flex-basis: 60%;
+
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.aboutbrand__paragraph {
+  margin-bottom: 40px;
+}
+
+// ./aboutbrand

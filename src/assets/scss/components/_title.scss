@@ -1,16 +1,27 @@
 .title {
-  font-size: rem(60px);
+  font-size: rem(48px);
   font-weight: 300;
+
+  line-height: 150%;
+}
+
+.title--main {
+  font-size: rem(60px);
 }
 
 .subtitle {
-  color: $font-gold;
-  font-size: inherit;
+  margin-bottom: 35px;
 
+  color: $font-gold;
+  font-size: 16px;
   letter-spacing: 0.25em;
 }
 
-.title--white,
+.title--main,
 .subtitle--white {
   color: #ffffff;
+}
+
+.subtitle--white {
+  margin-bottom: 30px;
 }

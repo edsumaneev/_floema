@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+
+  padding: 20px 22px;
+
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.25em;
+
+  border: 2px solid #ffffff;
+}
+
+.button--white {
+  margin-top: 79px;
+  color: #fff;
+}
+
+.button--white:hover {
+  color: #3f3f3f;
+  background-color: #ffffff;
+}
