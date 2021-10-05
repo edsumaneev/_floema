@@ -63,6 +63,11 @@
   }
 }
 
+.nav__item:hover {
+  color: red;
+  transition: all ease-in-out 0.4s;
+}
+
 .nav.active .nav__item {
   width: 100%;
 }

@@ -1,0 +1,9 @@
+{% macro sliders(imgsrc, title, dscr) %}
+<div class="slider__item">
+  <img class="slider__img" src="{{imgsrc}}" alt="">
+  <div class="slider__inner">
+    <h4 class="slider__title">{{title}}</h4>
+    <p class="slider__dsc">{{dscr}}</p>
+  </div>
+</div>
+{% endmacro %}

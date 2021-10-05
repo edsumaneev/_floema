@@ -30,13 +30,13 @@ $(document).keydown(function (eveent) {
 
 // slick slider
 $(".slider").slick({
-  slidesToShow: 4,
+  slidesToShow: 3,
   infinite: true,
   autoplay: false,
   touchThreshold: 100,
   dots: false,
-  // prevArrow: $(".slick-prev"),
-  // nextArrow: $(".slick-next"),
+  prevArrow: $(".slick-prev"),
+  nextArrow: $(".slick-next"),
   responsive: [{
       breakpoint: 1100,
       settings: {
