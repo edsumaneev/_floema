@@ -54,3 +54,15 @@ $(".slider").slick({
     }
   ]
 });
+
+// скролл к якорю с учётом высоты header
+$(document).ready(function () {
+  $("a").click(function () {
+    var elementClick = $(this).attr("href")
+    var destination = $(elementClick).offset().top - $('.header').height();
+    jQuery("html:not(:animated),body:not(:animated)").animate({
+      scrollTop: destination
+    }, 400);
+    return false;
+  });
+});
