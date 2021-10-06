@@ -95,13 +95,21 @@
   min-height: 72px;
 }
 
-.list__item--width {
-  margin-right: 72px;
-  max-width: 393px;
+
+.aboutbrand .list__inner {
+  margin-bottom: 0;
 }
 
-.list__item:nth-child(3n),
-.list__item--width:nth-child(3n) {
+.list__item--width {
+  margin-right: 40px;
+  max-width: 244px;
+}
+
+.ingredient .list__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.aboutbrand .list__item--width:nth-child(5n) {
   margin-right: 0;
 }
 
