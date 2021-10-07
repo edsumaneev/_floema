@@ -411,7 +411,7 @@
 // .actions
 .actions {
   padding: 100px 0 140px;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 
   background-color: #ffffff;
 }
@@ -496,7 +496,7 @@
 
 .actions__text {
   padding-left: 225px;
-  padding-right: 300px;
+  padding-right: 245px;
   margin-left: 65px;
 
   font-weight: 300;
@@ -505,3 +505,88 @@
 }
 
 // ./actions
+// .promo
+.promo {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 174px;
+}
+
+.promo__img {
+  margin-right: 136px;
+
+  min-width: 447px;
+  min-height: 447px;
+}
+
+.promo__dsc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// ./promo
+// .review
+.review {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+
+  background-color: #f8d5c1;
+}
+
+.review__dsc {
+  position: relative;
+  padding: 100px 150px 2px 151px;
+  width: 60%;
+
+  overflow: hidden;
+}
+
+.review__dsc::before {
+  position: absolute;
+  content: "";
+  width: 611px;
+  height: 611px;
+  top: -165px;
+  right: -300px;
+  background: url("../img/bg/bg-circle01.png") no-repeat 50% 50%;
+}
+
+.review__img {
+  width: 564px;
+  height: 800px;
+}
+
+.review__subtitle {
+  margin-left: -25px;
+}
+
+.review__quote {
+  z-index: 5;
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.review__caption {
+  color: $font-gold;
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.review__paragraph {
+  margin-bottom: 25px;
+  font-size: 1rem;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+// ./review

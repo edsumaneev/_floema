@@ -46,14 +46,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #b4b2b2;
-}
-
-// *:hover {
-//   transition: all ease-in-out 0.4s;
-// }
-
 *,
 *::before,
 *::after {
@@ -87,7 +79,7 @@ img {
   display: block;
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 100%;
 
   object-fit: cover;
 }

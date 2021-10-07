@@ -2,21 +2,36 @@
   display: inline-block;
   box-sizing: border-box;
 
-  padding: 20px 22px;
+  padding: 20px 15px;
 
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.25em;
 
-  border: 2px solid #ffffff;
+  border: 2px solid #e2ae99;
+}
+
+.button:hover {
+  transition: ease-in-out 0.3s;
 }
 
 .button--white {
   margin-top: 79px;
   color: #fff;
+  border-color: #ffffff;
 }
 
 .button--white:hover {
   color: #3f3f3f;
   background-color: #ffffff;
+}
+
+.button--black {
+  max-width: 330px;
+  background-color: transparent;
+}
+
+.button--black:hover {
+  color: #ffffff;
+  background-color: #e2ae99;
 }

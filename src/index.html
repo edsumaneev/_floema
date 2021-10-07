@@ -3,6 +3,9 @@
 <div id="overlay"></div>
 <header class="header">
   <div class="header__inner container">
+    <div class="logo">
+      <img class="logo__img" src="assets/img/bg/logo.png" alt="Floema" width="145" height="28">
+    </div>
     <nav class="nav">
       <a class="nav__item" href="#about">О бренде</a>
       <a class="nav__item" href="#catalog">Каталог</a>
@@ -10,9 +13,6 @@
       <a class="nav__item" href="#buy">Где купить?</a>
       <a class="nav__item" href="#contacts">Контакты</a>
     </nav>
-    <div class="logo">
-      <img class="logo__img" src="assets/img/bg/logo.png" alt="Floema" width="145" height="28">
-    </div>
     <div class="hamburger">
       <span></span>
     </div>
@@ -181,7 +181,7 @@
 
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide02.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide06.png" alt="">
             <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">
               <h4 class="slider__title">Сыворотка для роста ресниц</h4>
               <p class="slider__dsc">3мл</p>
@@ -189,7 +189,7 @@
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide07.png" alt="">
             <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#exampleModal"
               data-bs-whatever="@getbootstrap">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
@@ -206,7 +206,7 @@
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide02.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide06.png" alt="">
             <div class="slider__inner">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
@@ -214,7 +214,7 @@
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide07.png" alt="">
             <div class="slider__inner">
               <h4 class="slider__title">Сыворотка для роста ресниц</h4>
               <p class="slider__dsc">3мл</p>
@@ -230,19 +230,13 @@
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide02.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide06.png" alt="">
             <div class="slider__inner">
               <h4 class="slider__title">Сыворотка для роста ресниц</h4>
               <p class="slider__dsc">3мл</p>
             </div>
           </div>
         </div>
-        <!-- <div class="slider">
-          {% from "../templates/sliders.njk" import sliders %}
-          {% for items in items %}
-          {{ sliders(items.imgsrc, items.title, items.dscr) }}
-          {% endfor %}
-        </div> -->
         <button class="slick-prev">
           <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="35" cy="35" r="34" transform="rotate(-180 35 35)" stroke-width="2" />
@@ -527,6 +521,40 @@
   <div class="container">
     <h2 class="actions__bottom"><span>4</span>зоны воздействия</h2>
     <p class="actions__text">активных компонентов сыворотки в одном применении</p>
+  </div>
+</section>
+<section class="promo container">
+  <div class="promo__img">
+    <img src="assets/img/bg/bg-page05.png" alt="Floema" width="447" height="447">
+  </div>
+  <div class="promo__dsc">
+    <p class="subtitle">Доказанная эффективность</p>
+    <h2 class="title">Действие продукции подтверждено клиническими исследованиями</h2>
+    <a class="button button--black" href="#">Информация для врачей</a>
+  </div>
+</section>
+<section class="container">
+  <div class="review">
+    <div class="review__dsc">
+      <h3 class="subtitle review__subtitle">Мнение специалиста</h3>
+      <blockquote class="review__quote">
+        В своей работе я доверяю только средствам с доказанным действием, поэтому Floema - мой выбор первой линии.
+        Для врача лечебные сыворотки Floema дают возможность назначения эффективного средства для решения проблемы
+        пациента, а пациенту – безопасное восстановление и улучшение состояния волос и кожи головы.
+      </blockquote>
+      <p class="review__caption">
+        Ромашкина Анастасия
+      </p>
+      <p class="review__paragraph">
+        Кандидат медицинских наук, врач-дерматолог, трихолог, косметолог, физиотерапевт
+      </p>
+      <p class="review__paragraph">
+        г.Москва
+      </p>
+    </div>
+    <div class="review__img">
+      <img src="assets/img/bg/bg-page06.png" alt="Floema" width="564" height="800">
+    </div>
   </div>
 </section>
 
