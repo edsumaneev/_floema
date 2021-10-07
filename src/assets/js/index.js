@@ -1,5 +1,11 @@
 require('bootstrap');
 require('slick-carousel');
+require('../../../node_modules/magnific-popup/dist/jquery.magnific-popup');
+
+// // контент popup 
+// $('.slider__item').magnificPopup({
+//   type: 'inline'
+// });
 
 // hamburger
 $('.hamburger').on('click', function (event) {

@@ -1,0 +1,9 @@
+.modal-dialog {
+  top: 30%;
+}
+
+body.modal-open {
+  // height: 100vh;
+  margin-right: -20px;
+  /* Avoid width reflow */
+}

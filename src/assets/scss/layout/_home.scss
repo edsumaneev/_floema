@@ -1,16 +1,9 @@
 .logo {
-  order: 1;
   margin-right: 90px;
-
-  @media(max-width: $width-lg) {
-    margin: 0 auto;
-  }
 }
 
 .nav.active+.logo {
   z-index: 30;
-
-  filter: brightness(5);
 }
 
 // .intro
@@ -102,6 +95,7 @@
 
 .list__item--width {
   margin-right: 40px;
+  margin-bottom: 50px;
   max-width: 244px;
 }
 
@@ -136,7 +130,6 @@
 
 .list__title {
   padding-left: 80px;
-  // margin-bottom: 40px;
 
   color: $font-gold;
   font-size: 1rem;
@@ -200,6 +193,7 @@
   flex-basis: 60%;
 
   color: #ffffff;
+
   font-size: 24px;
   line-height: 150%;
   letter-spacing: 0.01em;
@@ -207,10 +201,52 @@
 
 .aboutbrand__paragraph {
   margin-bottom: 40px;
+
+  font-weight: 900;
 }
 
 // ./aboutbrand
+// .advantages
+.advantages {
+  display: flex;
+  justify-content: space-between;
 
+  margin-bottom: 100px;
+}
+
+.advantages__item {
+  max-width: 387px;
+}
+
+.advantages__title {
+  margin-bottom: 28px;
+
+  color: $font-gold;
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.advantages__point {
+  position: relative;
+  padding-left: 29px;
+  margin-bottom: 25px;
+  letter-spacing: 0.01em;
+}
+
+.advantages__point::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+
+  background: url("../img/icons/adv-icon.svg") no-repeat 50% 50%;
+}
+
+// ./advantages
 // .forfemale
 .forfemale {
   padding-top: 100px;
@@ -255,6 +291,8 @@
 
 .slider__inner {
   text-align: center;
+
+  cursor: pointer;
 }
 
 .slider__img {
@@ -265,8 +303,9 @@
 .slider__title {
   margin-bottom: 8px;
 
-  color: $font-gold;
+  color: #3f3f3f;
   font-size: 1rem;
+  font-weight: 900;
   letter-spacing: 0.01em;
   line-height: 150%;
 }
@@ -361,8 +400,9 @@
   margin-bottom: 8px;
   width: 150%;
 
-  color: $font-gold;
+  color: #3f3f3f;
   font-size: 1rem;
+  font-weight: 900;
   letter-spacing: 0.01em;
   line-height: 150%;
 }
