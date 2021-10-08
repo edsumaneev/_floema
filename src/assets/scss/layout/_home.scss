@@ -1,3 +1,43 @@
+.social {
+  position: fixed;
+  top: 360px;
+  right: 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media screen and (max-width: 1850px) {
+    right: 145px;
+  }
+
+  @media screen and (max-width: 1777px) {
+    right: 100px;
+  }
+
+  @media screen and (max-width: 1645px) {
+    right: 80px;
+  }
+
+  @media screen and (max-width: 1615px) {
+    right: 60px;
+  }
+}
+
+.social__link {
+  margin-bottom: 19px;
+}
+
+.social__link svg {
+  fill: #3f3f3f;
+}
+
+.social__link:hover svg {
+  fill: #e2ae99;
+  transition: ease-in-out 0.3s;
+}
+
+// ./social
+
 .logo {
   margin-right: 90px;
 }
@@ -68,10 +108,6 @@
   flex-wrap: wrap;
 
   margin-bottom: 50px;
-
-  line-height: 150%;
-
-  letter-spacing: 0.01em;
 }
 
 .list__item {
@@ -223,16 +259,12 @@
 
   color: $font-gold;
   font-size: 24px;
-  line-height: 150%;
-
-  letter-spacing: 0.01em;
 }
 
 .advantages__point {
   position: relative;
   padding-left: 29px;
   margin-bottom: 25px;
-  letter-spacing: 0.01em;
 }
 
 .advantages__point::before {
@@ -306,8 +338,6 @@
   color: #3f3f3f;
   font-size: 1rem;
   font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: 150%;
 }
 
 .slick-prev,
@@ -403,8 +433,6 @@
   color: #3f3f3f;
   font-size: 1rem;
   font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: 150%;
 }
 
 // ./formale
@@ -464,9 +492,6 @@
 
 .actions__subtitle {
   font-size: 24px;
-  line-height: 150%;
-
-  letter-spacing: 0.01em;
 }
 
 .actions__bottom {
@@ -576,17 +601,225 @@
 .review__caption {
   color: $font-gold;
   font-size: 24px;
-  line-height: 150%;
-
-  letter-spacing: 0.01em;
 }
 
 .review__paragraph {
   margin-bottom: 25px;
   font-size: 1rem;
+}
+
+// ./review
+// .scientific
+.scientific {
+  margin-bottom: 80px;
+}
+
+.scientific__container {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    margin-bottom: 40px;
+    height: auto;
+  }
+}
+
+.scientific__dsc {
+  padding-left: 118px;
+  width: 51%;
+}
+
+.scientific__paragraph {
+  margin-bottom: 25px;
+}
+
+.scientific__paragraph span {
+  font-weight: 900;
+}
+
+.scientific__list {
+  position: relative;
+  padding-left: 54px;
+}
+
+.scientific__list::before {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "1";
+  left: 0;
+  top: 0;
+  width: 27px;
+  height: 27px;
+
+  color: #ffffff;
+
+  border-radius: 50%;
+  background-color: #3f3f3f;
+}
+
+.scientific__list--second {
+  margin-top: 20px;
+}
+
+.scientific__list--second::before {
+  content: "2";
+}
+
+.scientific__list span {
+  font-weight: 900;
+}
+
+// ./scientific
+// .distributor
+.distributor {
+  padding: 100px 88px;
+  margin-bottom: 120px;
+
+  background-color: #ffffff;
+}
+
+.distributor__col {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 78px;
+}
+
+.distributor__img {
+  margin-right: 128px;
+  width: 72px;
+  height: 96px;
+}
+
+.distributor__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 28px 12px 97px;
+  margin-bottom: 17px;
+
+  background-color: #fbfbfb;
+}
+
+.distributor__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.distributor__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.distributor__name {
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.distributor__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.distributor__item {
+  margin-bottom: 15.2px;
+}
+
+.distributor__text {
+  padding: 0 225px;
+  margin-top: 16px;
+}
+
+.distributor__link:hover {
+  color: #c6a477;
+  transition: ease-in-out 0.5s;
+}
+
+// ./distributor
+// .contacts
+.contacts {
+  margin-bottom: 40px;
+}
+
+.contacts__row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.contacts__logo {
+  margin-right: 90px;
+  min-width: 144px;
+  height: 104px;
+}
+
+.contacts__dsc {
+  padding-right: 440px;
+  font-size: 24px;
   line-height: 150%;
 
   letter-spacing: 0.01em;
 }
 
-// ./review
+.contacts__data {
+  max-width: 425px;
+
+  // 
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.contacts__link {
+  display: inline-block;
+  margin-top: 35px;
+
+  color: $font-gold;
+  font-size: 24px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+}
+
+.contacts__link:hover {
+  color: #c6a477;
+  transition: ease-in-out 0.5s;
+}
+
+// ./contacts
+// .arrowup
+.arrowup {
+  margin-bottom: 59px;
+
+  text-align: center;
+}
+
+.arrowup__link svg {
+  width: 100%;
+  fill: #c6a477;
+}
+
+.arrowup__link:hover svg {
+  fill: #3f3f3f;
+  transition: ease-in-out 0.5s;
+}
+
+.arrowup__link:hover .arrowup__text {
+  color: #3f3f3f;
+  transition: ease-in-out 0.5s;
+}
+
+.arrowup__text {
+  color: #c6a477;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+}
+
+// ./arrowup
