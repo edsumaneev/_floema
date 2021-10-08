@@ -327,6 +327,11 @@
   cursor: pointer;
 }
 
+.slider__inner:hover .slider__title {
+  text-shadow: 3px 3px 8px rgba($color: #e2ae99, $alpha: 0.8);
+  transition: ease-in-out 0.3s;
+}
+
 .slider__img {
   width: auto;
   height: 251px;

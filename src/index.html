@@ -1,7 +1,5 @@
 {% set title = "Floema | Home" %}
 {% include "../templates/header.njk" %}
-
-<div id="overlay"></div>
 <div class="social">
   <a class="social__link" href="#">
     <span>
@@ -188,6 +186,7 @@
     </div>
   </div>
 </section>
+
 <section class="product" id="catalog">
   <div class="forfemale">
     <div class="container">
@@ -204,7 +203,7 @@
 
           <div class="slider__item">
             <img class="slider__img" src="assets/img/bg/slide01.png" alt="">
-            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-1">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
@@ -213,7 +212,7 @@
 
           <div class="slider__item">
             <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
-            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-2">
               <h4 class="slider__title">Сыворотка для роста ресниц</h4>
               <p class="slider__dsc">3мл</p>
             </div>
@@ -221,8 +220,7 @@
 
           <div class="slider__item">
             <img class="slider__img" src="assets/img/bg/slide04.png" alt="">
-            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              data-bs-whatever="@getbootstrap">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-3">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
@@ -775,7 +773,12 @@
     <a class="footer__link" href="#">Политика конфиденциальности</a>
   </div>
 </footer>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--  -->
+
+<div class="" data-bs-toggle="modal" data-bs-target="#exampleModal-3" data-bs-whatever="@getbootstrap">
+  Open modal for @getbootstrap</div>
+
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -786,6 +789,60 @@
         <form>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">22-22</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">222222</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">33-33</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">333333</label>
             <input type="text" class="form-control" id="recipient-name">
           </div>
           <div class="mb-3">
