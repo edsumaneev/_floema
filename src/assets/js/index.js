@@ -29,6 +29,31 @@ $(document).keydown(function (eveent) {
 });
 
 // slick slider
+$(".formale__list").slick({
+  slidesToShow: 2,
+  infinite: true,
+  autoplay: false,
+  touchThreshold: 100,
+  dots: false,
+  prevArrow: $(".formale-prev"),
+  nextArrow: $(".formale-next"),
+  responsive: [{
+      breakpoint: 1100,
+      settings: {
+
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 737,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+});
+
+
 $(".slider").slick({
   slidesToShow: 3,
   infinite: true,
@@ -47,13 +72,12 @@ $(".slider").slick({
       breakpoint: 737,
       settings: {
         slidesToShow: 1,
-        prevArrow: false,
-        nextArrow: false,
-        dots: true
       }
     }
   ]
 });
+
+
 
 // скролл к якорю с учётом высоты header
 $(document).ready(function () {

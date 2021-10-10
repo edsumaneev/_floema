@@ -1,36 +1,37 @@
 {% set title = "Floema | Home" %}
 {% include "../templates/header.njk" %}
-<div class="social">
-  <a class="social__link" href="#">
-    <span>
-      <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M1.6667 0.998535C0.746243 0.998535 6.10352e-05 1.74472 6.10352e-05 2.66518V24.3315C6.10352e-05 25.252 0.746243 25.9982 1.6667 25.9982H23.3331C24.2535 25.9982 24.9997 25.252 24.9997 24.3315V2.66518C24.9997 1.74472 24.2535 0.998535 23.3331 0.998535H1.6667ZM23.3331 3.33184H4.00001V21.9982H23.3331V3.33184Z" />
-        <path
-          d="M21.3377 0.998535H3.66212C1.64303 0.998535 6.10352e-05 2.6415 6.10352e-05 4.66059V22.3361C6.10352e-05 24.3552 1.64303 25.9982 3.66212 25.9982H21.3377C23.3567 25.9982 24.9997 24.3552 24.9997 22.3361V4.66059C24.9997 2.6415 23.3567 0.998535 21.3377 0.998535ZM12.5487 20.0412C8.91393 20.0412 5.95701 17.0843 5.95701 13.4495C5.95701 9.81475 8.91393 6.85783 12.5487 6.85783C16.1835 6.85783 19.1404 9.81475 19.1404 13.4495C19.1404 17.0843 16.1835 20.0412 12.5487 20.0412ZM19.8728 8.32265C18.6613 8.32265 17.6756 7.33695 17.6756 6.12542C17.6756 4.91389 18.6613 3.92818 19.8728 3.92818C21.0844 3.92818 22.0701 4.91389 22.0701 6.12542C22.0701 7.33695 21.0844 8.32265 19.8728 8.32265Z" />
-        <path
-          d="M19.8728 5.39301C19.4687 5.39301 19.1404 5.72126 19.1404 6.12542C19.1404 6.52958 19.4687 6.85783 19.8728 6.85783C20.277 6.85783 20.6052 6.52958 20.6052 6.12542C20.6052 5.72126 20.277 5.39301 19.8728 5.39301Z" />
-        <path
-          d="M12.5487 8.32265C9.72206 8.32265 7.42183 10.6229 7.42183 13.4495C7.42183 16.2762 9.72206 18.5764 12.5487 18.5764C15.3754 18.5764 17.6756 16.2762 17.6756 13.4495C17.6756 10.6229 15.3754 8.32265 12.5487 8.32265Z" />
-        <defs>
-          <rect width="24.9997" height="24.9997" fill="white" transform="translate(6.10352e-05 0.998535)" />
-        </defs>
-      </svg>
-    </span>
-  </a>
-  <a class="social__link" href="#">
-    <span>
-      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M23.62 0.000244169H1.37913C0.617576 0.000701928 0.000213653 0.618369 0.000366239 1.38023V23.6211C0.000823998 24.3827 0.618491 25 1.38035 24.9999H13.3547V15.3321H10.1076V11.5479H13.3547V8.76309C13.3547 5.53361 15.3262 3.77583 18.2071 3.77583C19.5869 3.77583 20.7726 3.87867 21.1182 3.9246V7.29995H19.1317C17.5644 7.29995 17.2609 8.04472 17.2609 9.13784V11.5479H21.0084L20.5201 15.3321H17.2609V24.9999H23.62C24.382 25 24.9999 24.3825 25 23.6205C25 23.6204 25 23.6202 25 23.6199V1.37901C24.9997 0.617454 24.3819 9.15831e-05 23.62 0.000244169Z" />
-        <defs>
-          <rect width="24.9997" height="24.9997" fill="white" transform="translate(0.000366211 0.000244141)" />
-        </defs>
-      </svg>
-    </span>
-  </a>
-</div>
+<div id="overlay"></div>
 <header class="header">
+  <div class="social">
+    <a class="social__link" href="#">inst
+      <span>
+        <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M1.6667 0.998535C0.746243 0.998535 6.10352e-05 1.74472 6.10352e-05 2.66518V24.3315C6.10352e-05 25.252 0.746243 25.9982 1.6667 25.9982H23.3331C24.2535 25.9982 24.9997 25.252 24.9997 24.3315V2.66518C24.9997 1.74472 24.2535 0.998535 23.3331 0.998535H1.6667ZM23.3331 3.33184H4.00001V21.9982H23.3331V3.33184Z" />
+          <path
+            d="M21.3377 0.998535H3.66212C1.64303 0.998535 6.10352e-05 2.6415 6.10352e-05 4.66059V22.3361C6.10352e-05 24.3552 1.64303 25.9982 3.66212 25.9982H21.3377C23.3567 25.9982 24.9997 24.3552 24.9997 22.3361V4.66059C24.9997 2.6415 23.3567 0.998535 21.3377 0.998535ZM12.5487 20.0412C8.91393 20.0412 5.95701 17.0843 5.95701 13.4495C5.95701 9.81475 8.91393 6.85783 12.5487 6.85783C16.1835 6.85783 19.1404 9.81475 19.1404 13.4495C19.1404 17.0843 16.1835 20.0412 12.5487 20.0412ZM19.8728 8.32265C18.6613 8.32265 17.6756 7.33695 17.6756 6.12542C17.6756 4.91389 18.6613 3.92818 19.8728 3.92818C21.0844 3.92818 22.0701 4.91389 22.0701 6.12542C22.0701 7.33695 21.0844 8.32265 19.8728 8.32265Z" />
+          <path
+            d="M19.8728 5.39301C19.4687 5.39301 19.1404 5.72126 19.1404 6.12542C19.1404 6.52958 19.4687 6.85783 19.8728 6.85783C20.277 6.85783 20.6052 6.52958 20.6052 6.12542C20.6052 5.72126 20.277 5.39301 19.8728 5.39301Z" />
+          <path
+            d="M12.5487 8.32265C9.72206 8.32265 7.42183 10.6229 7.42183 13.4495C7.42183 16.2762 9.72206 18.5764 12.5487 18.5764C15.3754 18.5764 17.6756 16.2762 17.6756 13.4495C17.6756 10.6229 15.3754 8.32265 12.5487 8.32265Z" />
+          <defs>
+            <rect width="24.9997" height="24.9997" fill="white" transform="translate(6.10352e-05 0.998535)" />
+          </defs>
+        </svg>
+      </span>
+    </a>
+    <a class="social__link" href="#">fb
+      <span>
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M23.62 0.000244169H1.37913C0.617576 0.000701928 0.000213653 0.618369 0.000366239 1.38023V23.6211C0.000823998 24.3827 0.618491 25 1.38035 24.9999H13.3547V15.3321H10.1076V11.5479H13.3547V8.76309C13.3547 5.53361 15.3262 3.77583 18.2071 3.77583C19.5869 3.77583 20.7726 3.87867 21.1182 3.9246V7.29995H19.1317C17.5644 7.29995 17.2609 8.04472 17.2609 9.13784V11.5479H21.0084L20.5201 15.3321H17.2609V24.9999H23.62C24.382 25 24.9999 24.3825 25 23.6205C25 23.6204 25 23.6202 25 23.6199V1.37901C24.9997 0.617454 24.3819 9.15831e-05 23.62 0.000244169Z" />
+          <defs>
+            <rect width="24.9997" height="24.9997" fill="white" transform="translate(0.000366211 0.000244141)" />
+          </defs>
+        </svg>
+      </span>
+    </a>
+  </div>
   <div class="header__inner container">
     <div class="logo">
       <img class="logo__img" src="assets/img/bg/logo.png" alt="Floema" width="145" height="28">
@@ -202,71 +203,70 @@
         <div class="slider">
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide01.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide-hair-growth.png" alt="Floema" width="300" height="300">
             <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-1">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
           </div>
 
-
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide-men.png" alt="Floema" width="300" height="300">
             <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-2">
-              <h4 class="slider__title">Сыворотка для роста ресниц</h4>
-              <p class="slider__dsc">3мл</p>
+              <h4 class="slider__title">Сыворотка против выпадения волос</h4>
+              <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide04.png" alt="">
+            <img class="slider__img" src="assets/img/bg/slide-eyelash-growth.png" alt="Floema" width="300" height="300">
             <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-3">
+              <h4 class="slider__title">Сыворотка для роста ресниц</h4>
+              <p class="slider__dsc">50 мл х 2 шт.</p>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <img class="slider__img" src="assets/img/bg/slide-eyebrow-growth.png" alt="Floema" width="300" height="300">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-4">
+              <h4 class="slider__title">Сыворотка для роста бровей</h4>
+              <p class="slider__dsc">10 мл</p>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <img class="slider__img" src="assets/img/bg/slide-hair-growth.png" alt="Floema" width="300" height="300">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-1">
               <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide01.png" alt="">
-            <div class="slider__inner">
-              <h4 class="slider__title">Сыворотка для роста ресниц</h4>
-              <p class="slider__dsc">3мл</p>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
-            <div class="slider__inner">
-              <h4 class="slider__title">Сыворотка для роста волос</h4>
+            <img class="slider__img" src="assets/img/bg/slide-men.png" alt="Floema" width="300" height="300">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-2">
+              <h4 class="slider__title">Сыворотка против выпадения волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide04.png" alt="">
-            <div class="slider__inner">
+            <img class="slider__img" src="assets/img/bg/slide-eyelash-growth.png" alt="Floema" width="300" height="300">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-3">
               <h4 class="slider__title">Сыворотка для роста ресниц</h4>
-              <p class="slider__dsc">3мл</p>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide01.png" alt="">
-            <div class="slider__inner">
-              <h4 class="slider__title">Сыворотка для роста волос</h4>
               <p class="slider__dsc">50 мл х 2 шт.</p>
             </div>
           </div>
 
           <div class="slider__item">
-            <img class="slider__img" src="assets/img/bg/slide03.png" alt="">
-            <div class="slider__inner">
-              <h4 class="slider__title">Сыворотка для роста ресниц</h4>
-              <p class="slider__dsc">3мл</p>
+            <img class="slider__img" src="assets/img/bg/slide-eyebrow-growth.png" alt="Floema" width="300" height="300">
+            <div class="slider__inner" data-bs-toggle="modal" data-bs-target="#modal-4">
+              <h4 class="slider__title">Сыворотка для роста бровей</h4>
+              <p class="slider__dsc">10 мл</p>
             </div>
           </div>
         </div>
-        <button class="slick-prev">
+        <button class="slick-prev">prev
           <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="35" cy="35" r="34" transform="rotate(-180 35 35)" stroke-width="2" />
             <path
@@ -278,7 +278,7 @@
             </defs>
           </svg>
         </button>
-        <button class="slick-next">
+        <button class="slick-next">next
           <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="35" cy="35" r="34" stroke-width="2" />
             <path
@@ -299,24 +299,48 @@
       <h2 class="title">Для мужчин</h2>
     </div>
     <div class="formale__wrapper container">
-      <ul class="formale__list">
-        <li class="formale__item formale__item--wide">
-          <img class="formale__img" src="assets/img/bg/slide01.png" alt="">
-          <div class="formale__inner">
-            <h4 class="formale__title">Сыворотка против выпадения волос MEN</h4>
+      <div class="formale__list">
+        <div class="formale__item formale__item--wide">
+          <img class="formale__img" src="assets/img/bg/slide-men.png" alt="Floema" width="300" height="300">
+          <div class="formale__inner" data-bs-toggle="modal" data-bs-target="#modal-5">
+            <h4 class="formale__title">Сыворотка против выпадения волос</h4>
             <p class="formale__dsc">50 мл х 2 шт.</p>
           </div>
-        </li>
-        <li class="formale__item">
-          <img class="formale__img" src="assets/img/bg/slide02.png" alt="">
-          <div class="formale__inner">
+        </div>
+        <div class="formale__item">
+          <img class="formale__img" src="assets/img/bg/slide-moustache.png" alt="Floema" width="300" height="300">
+          <div class="formale__inner" data-bs-toggle="modal" data-bs-target="#modal-6">
             <h4 class="formale__title">Сыворотка для роста бороды</h4>
             <p class="formale__dsc">30мл х 2 шт.</p>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <button class="formale-prev">prev
+        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="35" cy="35" r="34" transform="rotate(-180 35 35)" stroke-width="2" />
+          <path
+            d="M39.4709 44.8726C39.6435 45.0394 39.9187 45.0346 40.0855 44.8619C40.2482 44.6934 40.2482 44.4264 40.0855 44.258L30.8306 35.0022L40.0863 25.7474C40.259 25.5806 40.2638 25.3054 40.097 25.1327C39.9302 24.9601 39.6551 24.9553 39.4824 25.122C39.4788 25.1256 39.4752 25.1291 39.4717 25.1327L29.9091 34.6954C29.7394 34.8651 29.7394 35.1402 29.9091 35.31L39.4709 44.8726Z" />
+          <path
+            d="M39.7786 25.0049C40.0187 25.0045 40.2136 25.1988 40.2141 25.4388C40.2143 25.5545 40.1683 25.6656 40.0864 25.7473L30.8306 35.0022L40.0864 44.2571C40.2563 44.427 40.2563 44.7026 40.0864 44.8726C39.9164 45.0425 39.6409 45.0425 39.4709 44.8726L29.9083 35.3099C29.7386 35.1402 29.7386 34.8651 29.9083 34.6953L39.4709 25.1327C39.5524 25.0509 39.6631 25.0049 39.7786 25.0049Z" />
+          <defs>
+            <rect width="20" height="20" fill="white" transform="translate(45 45) rotate(-180)" />
+          </defs>
+        </svg>
+      </button>
+      <button class="formale-next">next
+        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="35" cy="35" r="34" stroke-width="2" />
+          <path
+            d="M30.5291 25.1274C30.3565 24.9606 30.0813 24.9654 29.9145 25.1381C29.7518 25.3066 29.7518 25.5736 29.9145 25.742L39.1694 34.9978L29.9137 44.2526C29.741 44.4194 29.7362 44.6946 29.903 44.8673C30.0698 45.0399 30.3449 45.0447 30.5176 44.878C30.5212 44.8744 30.5248 44.8709 30.5283 44.8673L40.0909 35.3046C40.2606 35.1349 40.2606 34.8598 40.0909 34.69L30.5291 25.1274Z" />
+          <path
+            d="M30.2214 44.9951C29.9813 44.9955 29.7864 44.8012 29.7859 44.5612C29.7857 44.4455 29.8317 44.3344 29.9136 44.2527L39.1694 34.9978L29.9136 25.7429C29.7437 25.573 29.7437 25.2974 29.9136 25.1274C30.0836 24.9575 30.3591 24.9575 30.5291 25.1274L40.0917 34.6901C40.2614 34.8598 40.2614 35.1349 40.0917 35.3047L30.5291 44.8673C30.4476 44.9491 30.3369 44.9951 30.2214 44.9951Z" />
+          <defs>
+            <rect width="20" height="20" fill="white" transform="translate(25 25)" />
+          </defs>
+        </svg>
+      </button>
       <div class="formale__img formale__img--big">
-        <img src="assets/img/bg/bg-page03.png" alt="">
+        <img src="assets/img/bg/bg-page03.png" alt="Floema" width="447" height="447">
       </div>
     </div>
   </div>
@@ -671,6 +695,7 @@
       </ul>
     </div>
     <div>
+      <img class="scientific__imgmob" src="assets/img/bg/bg-articl03.png" alt="Floema" width="445" height="353">
       <img src="assets/img/bg/bg-articl02.png" alt="Floema" width="445" height="213">
       <img src="assets/img/bg/bg-articl03.png" alt="Floema" width="445" height="353">
     </div>
@@ -773,90 +798,233 @@
     <a class="footer__link" href="#">Политика конфиденциальности</a>
   </div>
 </footer>
-<!--  -->
 
-<div class="" data-bs-toggle="modal" data-bs-target="#exampleModal-3" data-bs-whatever="@getbootstrap">
-  Open modal for @getbootstrap</div>
-
-<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- modal-1 -->
+<div class="modal fade" id="modal-1" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <h3 class="title">Сыворотка для роста волос</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-hair-growth.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Для стимулирования роста волос</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Стимулирует регенерацию волосяного фолликула</p>
+          <p class="modal__text">Уменьшает миниатюризацию волосяных фолликулов</p>
+          <p class="modal__text">Продлевает фазу роста (анаген) и сокращает фазу сна (телоген)</p>
+          <p class="modal__text">Оздоравливает кожу головы, улучшает внешний вид волос</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">2 стеклянных флакона с пипеткой х 50 мл</p>
+          <p class="modal__text">Два флакона обеспечивают сохранность и активность сыворотки в течение всего курса
+            применения</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Перед сном нанесите содержимое трех пипеток средства на сухую чистую кожу, линия за линией, уделяя особое
+            внимание участкам поредения волос. Для полного проникновения продукта слегка помассируйте кожу головы
+            кончиками пальцев. Не смывать. Использовать ежедневно. Минимальный рекомендованный курс три месяца.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!--  -->
-<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- modal-2 -->
+<div class="modal fade" id="modal-2" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">22-22</h5>
+        <h3 class="title">Сыворотка против выпадения волос</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">222222</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-men.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Против выпадения волос</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Препятствует выпадению и стимулирует рост новых волос</p>
+          <p class="modal__text">Усиленная формула борется с проявлением алопеции</p>
+          <p class="modal__text">Ускоряет формирование волосяного стержня, стимулирует активность клеток волосяного
+            фолликула</p>
+          <p class="modal__text">Уменьшает локальные микровоспаления, приводящие к выпадению волос</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">2 стеклянных флакона с пипеткой х 50 мл</p>
+          <p class="modal__text">Два флакона обеспечивают СОХРАННОСТЬ И АКТИВНОСТЬ сыворотки в течение всего курса
+            применения</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Перед сном нанесите содержимое трех пипеток средства на сухую чистую кожу, линия за линией, уделяя особое
+            внимание участкам поредения волос. Для полного проникновения продукта слегка помассируйте кожу головы
+            кончиками пальцев. Не смывать. Использовать ежедневно. Минимальный рекомендованный курс три месяца.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!--  -->
-<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- modal-3 -->
+<div class="modal fade" id="modal-3" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">33-33</h5>
+        <h3 class="title">Сыворотка для роста ресниц</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">333333</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-eyelash-growth.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Для стимулирования роста ресниц</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Стимулирует естественный рост и увеличение объёма ресниц</p>
+          <p class="modal__text">Оптимизирует цикл роста ресниц</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">Туба с аппликатором 3 мл</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Очистите кожу лица от макияжа и загрязнений. Снимите контактные линзы и накладные ресницы, если используете.
+            Нанесите с помощью аппликатора тонкую полоску средства по линии роста ресниц. Используйте сыворотку один раз
+            в день перед сном. Минимальный рекомендованный курс шесть недель.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+    </div>
+  </div>
+</div>
+<!-- modal-4 -->
+<div class="modal fade" id="modal-4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="title">Сыворотка для роста бровей</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-eyebrow-growth.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Для стимулирования роста бровей</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Стимулирует естественный рост волос в области бровей</p>
+          <p class="modal__text">Оптимизирует цикл роста бровей</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">Флакон с аппликатором 10 мл</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Очистите кожу лица от макияжа и загрязнений; убедитесь, что брови полностью чистые, без остатков других
+            средств. Нанесите средство по линии роста бровей. Используйте сыворотку один раз в день перед сном.
+            Минимальный рекомендованный курс шесть недель.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- modal-5 -->
+<div class="modal fade" id="modal-5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="title">Сыворотка против выпадения волос</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-men.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Против выпадения волос</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Препятствует выпадению и стимулирует рост новых волос</p>
+          <p class="modal__text">Усиленная формула борется с проявлением алопеции</p>
+          <p class="modal__text">Ускоряет формирование волосяного стержня, стимулирует активность клеток волосяного
+            фолликула</p>
+          <p class="modal__text">Уменьшает локальные микровоспаления, приводящие к выпадению волос</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">2 стеклянных флакона с пипеткой х 50 мл</p>
+          <p class="modal__text">Два флакона обеспечивают СОХРАННОСТЬ И АКТИВНОСТЬ сыворотки в течение всего курса
+            применения</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Перед сном нанесите содержимое трех пипеток средства на сухую чистую кожу, линия за линией, уделяя особое
+            внимание участкам поредения волос. Для полного проникновения продукта слегка помассируйте кожу головы
+            кончиками пальцев. Не смывать. Использовать ежедневно. Минимальный рекомендованный курс три месяца.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal-6 -->
+<div class="modal fade" id="modal-6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="title">Сыворотка для роста бороды</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__img">
+          <img src="assets/img/bg/slide-moustache.png" alt="Floema" width="300" height="300">
+        </div>
+        <div class="modal__dsc">
+          <h4 class="modal__subtitle modal__subtitle--margin">Назначение</h4>
+          <p class="modal__text">Для стимулирования роста волос</p>
+          <h4 class="modal__subtitle">Действие</h4>
+          <p class="modal__text">Оптимизирует цикл роста бороды и усов</p>
+          <p class="modal__text">Стимулирует рост бороды и усов</p>
+          <h4 class="modal__subtitle">Упаковка</h4>
+          <p class="modal__text">2 стеклянных флакона с пипеткой х 30 мл</p>
+          <p class="modal__text">Два флакона обеспечивают сохранность и активность сыворотки в течение всего курса
+            применения</p>
+          <h4 class="modal__subtitle">Запах</h4>
+          <p class="modal__text">Нейтральный</p>
+          <h4 class="modal__subtitle">Способ применения</h4>
+          <p class="modal__text">
+            Перед сном нанесите содержимое двух пипеток средства на сухую чистую кожу, линия за линией, уделяя особое
+            внимание участкам поредения волос в области роста бороды. Для более полного проникновения продукта слегка
+            помассируйте кожу кончиками пальцев. Не смывать. Использовать ежедневно. Минимальный рекомендованный курс
+            три месяца.
+          </p>
+          <h4 class="modal__subtitle">Срок годности</h4>
+          <p class="modal__text">30 месяцев</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% include "../templates/footer.njk" %}
