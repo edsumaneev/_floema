@@ -6,6 +6,10 @@
   padding-top: 5%;
 
   overflow-y: auto;
+
+  @media screen and (max-width: 1050px) {
+    padding-top: 0;
+  }
 }
 
 .modal:target {
@@ -16,6 +20,10 @@
 
 .btn-close {
   background-size: 30px;
+
+  @media screen and (max-width: $width-md) {
+    background-size: 20px;
+  }
 }
 
 .btn-close:hover {
@@ -29,6 +37,11 @@
 
 .modal-dialog {
   min-width: 1000px;
+
+  @media screen and (max-width: 1050px) {
+    min-width: 100%;
+    margin: 0;
+  }
 }
 
 .modal-header {
@@ -40,12 +53,20 @@
 
 .modal-content {
   padding: 50px;
+
+  @media screen and (max-width: $width-md) {
+    padding: 20px;
+  }
 }
 
 .modal-body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media screen and (max-width: $width-md) {
+    flex-direction: column;
+  }
 }
 
 .modal__img {
@@ -55,6 +76,17 @@
   img {
     object-fit: contain;
   }
+
+  @media screen and (max-width: $width-md) {
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: unset;
+    height: 185px;
+
+    img {
+      object-fit: cover;
+    }
+  }
 }
 
 .modal__dsc {
@@ -63,6 +95,10 @@
   font-size: 12px;
   line-height: 150%;
   letter-spacing: 0.01em;
+
+  @media screen and (max-width: $width-md) {
+    width: 100%;
+  }
 }
 
 .modal .title {

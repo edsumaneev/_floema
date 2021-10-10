@@ -23,6 +23,18 @@
     right: 60px;
   }
 
+  @media screen and (max-width: 1600px) {
+    right: 40px;
+  }
+
+  @media screen and (max-width: 1520px) {
+    right: 20px;
+  }
+
+  @media screen and (max-width: 1482px) {
+    right: 0;
+  }
+
   @media screen and (max-width: $width-lg) {
     z-index: 25;
     flex-direction: row;
@@ -541,7 +553,7 @@
 
   background-color: transparent;
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     top: 125px;
   }
 }
@@ -549,16 +561,20 @@
 .slick-prev {
   left: 625px;
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 1405px) {
     left: 0;
   }
+
+  // @media screen and (max-width: 320px) {
+  //   left: 0;
+  // }
 }
 
 .slick-next {
-  left: 750px;
+  left: 110px;
 
   @media screen and (max-width: 320px) {
-    left: 210px;
+    left: 215px;
   }
 }
 
@@ -587,6 +603,7 @@
 .formale__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 
   @media screen and (max-width: 767px) {
     text-align: center;
@@ -682,10 +699,10 @@
 .formale-next {
   display: none !important;
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: 1100px) {
     display: inline-block !important;
     position: absolute;
-    top: 0;
+    top: 180px;
 
     stroke: #73877b;
     fill: #73877b;
@@ -701,18 +718,18 @@
 }
 
 .formale-prev {
-  left: 625px;
+  left: 0;
 
   @media screen and (max-width: 320px) {
-    left: 0;
+    left: 15px;
   }
 }
 
 .formale-next {
-  left: 750px;
+  left: 110px;
 
   @media screen and (max-width: 320px) {
-    left: 210px;
+    left: 215px;
   }
 }
 

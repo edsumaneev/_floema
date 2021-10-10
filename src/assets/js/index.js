@@ -40,7 +40,6 @@ $(".formale__list").slick({
   responsive: [{
       breakpoint: 1100,
       settings: {
-
         slidesToShow: 1
       }
     },
