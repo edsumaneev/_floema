@@ -240,7 +240,7 @@
 
   @media screen and (max-width: $width-lg) {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 
     max-width: unset;
   }
@@ -397,14 +397,31 @@
 }
 
 .advantages__item {
+  position: relative;
   max-width: 387px;
 }
 
+.advantages__icon {
+  position: absolute;
+  top: -10px;
+  left: 0;
+
+  svg {
+    fill: #73877b;
+  }
+}
+
 .advantages__title {
+  padding-left: 80px;
   margin-bottom: 28px;
 
   color: $font-gold;
   font-size: 24px;
+
+  @media screen and (max-width: $width-lg) {
+    padding-left: 60px;
+    font-size: 20px;
+  }
 }
 
 .advantages__point {
@@ -571,6 +588,10 @@
     left: 110px;
   }
 
+  @media screen and (max-width: 360px) {
+    left: 240px;
+  }
+
   @media screen and (max-width: 320px) {
     left: 215px;
   }
@@ -730,6 +751,10 @@
 
 .formale-next {
   left: 110px;
+
+  @media screen and (max-width: 360px) {
+    left: 265px;
+  }
 
   @media screen and (max-width: 320px) {
     left: 215px;
@@ -1049,6 +1074,8 @@
 
   img {
     margin-bottom: 40px;
+
+    min-width: 500px;
     height: auto;
   }
 
@@ -1230,7 +1257,7 @@
 }
 
 .distributor__text {
-  padding: 0 225px;
+  padding: 0 225px 0 30px;
   margin-top: 16px;
 
   @media screen and (max-width: $width-lg) {
