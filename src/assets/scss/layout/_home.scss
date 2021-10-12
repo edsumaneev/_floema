@@ -98,8 +98,8 @@
 
   @media screen and (max-width: $width-sm) {
     padding-top: 78px;
-    padding-left: 0;
-    padding-right: 0;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
 
@@ -392,7 +392,7 @@
   @media screen and (max-width: $width-lg) {
     flex-wrap: wrap;
 
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 }
 
@@ -424,10 +424,20 @@
   }
 }
 
+.advantages__list {
+  @media screen and (max-width: $width-md) {
+    margin-bottom: 40px;
+  }
+}
+
 .advantages__point {
   position: relative;
   padding-left: 29px;
   margin-bottom: 25px;
+
+  @media screen and (max-width: $width-md) {
+    margin-bottom: 15px;
+  }
 }
 
 .advantages__point::before {
@@ -588,8 +598,8 @@
     left: 110px;
   }
 
-  @media screen and (max-width: 360px) {
-    left: 240px;
+  @media screen and (max-width: 376px) {
+    left: 75%;
   }
 
   @media screen and (max-width: 320px) {
@@ -752,8 +762,8 @@
 .formale-next {
   left: 110px;
 
-  @media screen and (max-width: 360px) {
-    left: 265px;
+  @media screen and (max-width: 376px) {
+    left: 75%;
   }
 
   @media screen and (max-width: 320px) {
