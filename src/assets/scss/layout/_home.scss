@@ -525,6 +525,8 @@
   align-items: center;
   height: 340px;
 
+  cursor: pointer;
+
   @media screen and (max-width: $width-sm) {
     height: 300px;
   }
@@ -532,7 +534,6 @@
 
 .slider__inner {
   text-align: center;
-  cursor: pointer;
 }
 
 .slider__inner:hover .slider__title {
@@ -658,6 +659,8 @@
   align-items: center;
   max-width: 268px;
   height: 340px;
+
+  cursor: pointer;
 }
 
 .formale__item--wide {
@@ -695,8 +698,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  cursor: pointer;
 }
 
 .formale__inner:hover .formale__title {
@@ -1090,6 +1091,10 @@
 
   @media screen and (max-width: $width-lg) {
     flex-direction: column;
+
+    img {
+      min-width: unset;
+    }
   }
 }
 
