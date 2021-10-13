@@ -3,7 +3,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 2%;
+  padding-top: 0;
 
   overflow-y: auto;
 
@@ -169,6 +169,14 @@
   left: 5px;
   width: 1px;
   height: 1px;
+}
+
+.list .modal__text {
+  padding-left: 0;
+}
+
+.list .modal__text::before {
+  display: none;
 }
 
 .modal__group {

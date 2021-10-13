@@ -32,17 +32,20 @@
   }
 
   @media screen and (max-width: 1482px) {
-    right: 0;
+    right: 30px;
+    top: 30px;
+
+    flex-direction: row;
   }
 
   @media screen and (max-width: $width-lg) {
     z-index: 25;
-    flex-direction: row;
+    // flex-direction: row;
     justify-content: center;
 
     right: 0;
     left: 0;
-    top: 30px;
+    // top: 30px;
   }
 }
 
@@ -51,10 +54,14 @@
 
   font-size: 0;
 
-  @media screen and (max-width: $width-lg) {
+  @media screen and (max-width: 1482px) {
     margin-bottom: 0;
     margin-right: 20px;
   }
+
+  // @media screen and (max-width: $width-lg) {
+
+  // }
 
   @media screen and (max-width: 440px) {
     margin-right: 10px;
@@ -202,6 +209,17 @@
   }
 }
 
+.modal .list {
+  justify-content: space-between;
+  margin-bottom: 0;
+
+  @media screen and (max-width: 710px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
 .list__item {
   position: relative;
 
@@ -218,6 +236,16 @@
   }
 }
 
+.modal .list__item {
+  margin-right: 10px;
+  margin-bottom: 0;
+  max-width: 17%;
+
+  @media screen and (max-width: 710px) {
+    max-width: 100%;
+  }
+}
+
 .list__inner {
   margin-bottom: 20px;
   min-height: 72px;
@@ -227,6 +255,9 @@
   }
 }
 
+.modal .list__inner {
+  min-height: 40px;
+}
 
 .aboutbrand .list__inner {
   margin-bottom: 0;
@@ -253,17 +284,6 @@
   margin-right: 0;
 }
 
-// .list__item::before {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   content: "";
-//   width: 96px;
-//   height: 2px;
-
-//   background-color: #73877b;
-// }
-
 .list__icon {
   position: absolute;
   top: 30px;
@@ -272,6 +292,11 @@
   svg {
     fill: #73877b;
   }
+}
+
+.modal .list__icon {
+  width: 45px;
+  height: 45px;
 }
 
 .list__title {
